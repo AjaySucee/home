@@ -1,0 +1,111 @@
+body {
+  background-color :#FCF7F8;
+  color :#275DAD;
+  text-align :center;
+  margin-left :290px; 
+  font-size :130%;
+  padding-left :80px;
+  padding-right :80px;
+}
+
+img {
+  border-width: 8px;
+  border-style : solid;
+  border-color: #92B4F4;
+  width: 550px;
+}
+
+.sidebar {
+  width:280px;
+  height: 1000px;
+  background-color: #92B4F4;
+  color:#FCF7F8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1
+}
+
+.vline {
+  width:20px;
+  height: 1000px;
+  background-color: #275DAD;
+  position: fixed;
+  left: 270px;
+  top: 0;
+}
+
+.vline2 {
+  width:10px;
+  height: 1000px;
+  background-color: #275DAD;
+  position: fixed;
+  right: -0px;
+  top: 0;
+}
+
+#messi_fam {
+  border-width: 8px;
+  border-style : solid;
+  border-color: #92B4F4;
+  width: 350px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+hr {
+border-color: #275DAD;
+border: 5px solid;
+}
+
+.btn a {
+  background-color: #92B4F4; 
+  color :#275DAD;
+  border: 0px solid;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  width: 216px;
+  display: block;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+}
+
+.btn a:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn a:hover {
+  background-color: #4e84e9;
+  color: #FCF7F8;
+}
+
+table {
+  font-size :100%;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.img_under_lists {
+  border-width: 8px;
+  border-style : solid;
+  border-color: #92B4F4;
+  width: 380px;
+}
+
+#first_list {
+  padding-right: 50px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
